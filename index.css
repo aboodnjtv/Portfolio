@@ -1,0 +1,171 @@
+html {
+  margin: 0px;
+  background-image: url("images/header-back-image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Gill Sans", sans-serif;
+  /* font-size: 20px; */
+  color: rgb(101, 101, 101);
+}
+.main {
+  display: flex;
+}
+
+ul > li {
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+}
+
+.component {
+  padding: 20px 20px;
+  transition: all 0.3s;
+}
+.component:hover {
+  background-color: rgb(223, 238, 241);
+  border-radius: 30px;
+  color: rgb(52, 52, 52);
+  padding-bottom: 30px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/* /////////////////////////////// left /////////////////////////////// */
+
+.left {
+  margin: 20px 20px;
+  padding: 20px 20px;
+  padding-top: 35%;
+  width: 30%;
+  background-color: rgba(238, 238, 238, 0.305);
+}
+
+.left > .component > .skills {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #0072b1;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+  transition: all 0.5s;
+}
+a:hover {
+  color: #00a6ff;
+}
+
+/* /////////////////////////////// middle /////////////////////////////// */
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px;
+  margin-top: 3%;
+  padding: 20px 20px;
+  width: 30%;
+  /* background-color: rgb(236, 236, 236); */
+}
+
+.middle > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px;
+}
+.middle > div > img {
+  border-radius: 50%;
+  width: 300px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about > * {
+  margin: 0px 0px;
+}
+
+#bs {
+  color: rgb(176, 176, 176);
+}
+
+/* icons */
+.fa-brands {
+  font-size: 40px;
+  transition: all 0.3s;
+}
+.social > ul > a,
+.contact > ul > a {
+  color: unset;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+}
+
+.fa-linkedin:hover {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #0072b1;
+}
+.fa-github:hover {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #171515;
+}
+.fa-google:hover {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  color: #db4437;
+}
+
+#email {
+  font-size: 20px;
+}
+
+.languages > ul {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  /* background-color: #db4437; */
+}
+.languages > ul > li {
+  padding-right: 40px;
+}
+
+/* /////////////////////////////// right /////////////////////////////// */
+.right {
+  margin: 20px 20px;
+  padding: 20px 20px;
+  padding-top: 35%;
+  width: 30%;
+  background-color: rgba(238, 238, 238, 0.305);
+}
+
+/* /////////////////////////////// ---- /////////////////////////////// */
+
+h1::selection,
+h2::selection,
+h3::selection,
+ul::selection,
+li::selection,
+i::selection,
+span::selection,
+a::selection,
+div::selection,
+p::selection {
+  background-color: salmon;
+
+  color: white;
+}
+img::selection {
+  background-color: transparent;
+}
