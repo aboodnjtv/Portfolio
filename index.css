@@ -91,7 +91,7 @@ a:hover {
   margin: 0px 0px;
 }
 
-#bs {
+.grey {
   color: rgb(176, 176, 176);
 }
 
@@ -148,6 +148,10 @@ a:hover {
   padding-top: 35%;
   width: 30%;
   background-color: rgba(238, 238, 238, 0.305);
+}
+
+.right > .projects > div {
+  margin-bottom: 50px;
 }
 
 /* /////////////////////////////// ---- /////////////////////////////// */
